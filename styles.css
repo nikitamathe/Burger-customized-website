@@ -1,0 +1,151 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFCC; /* Light yellow background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #FF9900; /* Dark yellow text */
+}
+
+/* Roof Section */
+.roof {
+    background-color: #FF9900; /* Dark yellow roof */
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2); /* Shadow at the bottom */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Oval and Burger Text Section */
+.oval {
+    background-color: #FFFFFF; /* White oval background */
+    border: 5px solid #FF9900; /* Yellow border */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2); /* Shadow at the bottom */
+}
+
+.burger-text {
+    color: #993300; /* Brown text for BRRRGRRR */
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* Options Section */
+#options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFFCC; /* Light yellow background for options */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.option {
+    margin: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #FFFFFF; /* White background for buttons */
+    color: #FF9900; /* Dark yellow text */
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #FF9900; /* Dark yellow on hover */
+    color: #FFFFFF; /* White text on hover */
+}
+
+/* Your Burger Section */
+#burger-container {
+    /* Customization options will be added here */
+}
+
+#order-button {
+    padding: 15px 30px;
+    background-color: #FF9900; /* Dark yellow for the order button */
+    color: #FFFFFF; /* White text for the order button */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#order-button:hover {
+    background-color: #FF6600; /* Slightly darker yellow on hover */
+}
+
+/* Prices and Ingredients Section */
+.prices {
+    border: 3px solid #996633; /* Brown wooden border for prices */
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.price-item {
+    margin: 10px 0;
+}
+
+.ingredients-list {
+    list-style-type: none;
+}
+
+/* Current Order and Payment Section */
+.current-order {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.order-total {
+    font-weight: bold;
+}
+
+.pay-section {
+    margin-top: 20px;
+}
+
+.pay-button, .receive-order-button {
+    background-color: #FFA500; /* Orange background for buttons */
+    color: #FFFFFF; /* White text for buttons */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+/* Additional styles for the burger stall appearance */
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url('stall-background.jpg'); /* Replace with your stall background image */
+    background-size: cover;
+    height: 200px;
+}
