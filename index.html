@@ -31,15 +31,33 @@
         <div class="option">
             <button class="button">Lettuce</button>
         </div>
+        <div class="option">
+            <button class="button">Whole Wheat Bun</button>
+        </div>
     </div>
     
     <h2>Your Burger</h2>
+
+    <ul class="ingredients-list">
+        <!-- Selected ingredients will be listed here -->
+    </ul>
     
+    <div class="current-order">
+        Current Order Total: <span class="order-total">0</span> INR
+    </div>
+
+    <button id="order-button">Place Order</button>
+    
+    <div class="pay-section">
+        <button class="pay-button">Pay</button>
+        <button class="receive-order-button">Receive Order</button>
+    </div>
+
     <div id="burger-container">
         <!-- Burger customization options will be added here -->
     </div>
     
-    <button id="order-button">Place Order</button>
+    
     
     <div class="prices">
         <div class="price-item">
@@ -61,20 +79,7 @@
             Cheese Slice <span class="price">10</span>
         </div>
     </div>
-    
-    <ul class="ingredients-list">
-        <!-- Selected ingredients will be listed here -->
-    </ul>
-    
-    <div class="current-order">
-        Current Order Total: <span class="order-total">0</span> INR
-    </div>
-    
-    <div class="pay-section">
-        <button class="pay-button">Pay</button>
-        <button class="receive-order-button">Receive Order</button>
-    </div>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
